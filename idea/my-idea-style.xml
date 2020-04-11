@@ -1,5 +1,6 @@
 <code_scheme name="my-formatter" version="173">
   <JavaCodeStyleSettings>
+    <option name="GENERATE_FINAL_PARAMETERS" value="true" />
     <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="999" />
     <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="999" />
     <option name="IMPORT_LAYOUT_TABLE">
@@ -12,7 +13,11 @@
         <package name="" withSubpackages="true" static="false" />
       </value>
     </option>
+    <option name="JD_ADD_BLANK_AFTER_PARM_COMMENTS" value="true" />
+    <option name="JD_ADD_BLANK_AFTER_RETURN" value="true" />
     <option name="JD_KEEP_EMPTY_LINES" value="false" />
+    <option name="JD_PARAM_DESCRIPTION_ON_NEW_LINE" value="true" />
+    <option name="JD_INDENT_ON_CONTINUATION" value="true" />
   </JavaCodeStyleSettings>
   <codeStyleSettings language="JAVA">
     <option name="KEEP_LINE_BREAKS" value="false" />
@@ -20,6 +25,7 @@
     <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="KEEP_BLANK_LINES_BETWEEN_PACKAGE_DECLARATION_AND_HEADER" value="1" />
     <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <option name="ALIGN_MULTILINE_RESOURCES" value="false" />
